@@ -1,9 +1,23 @@
-# netwrth MCP server
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/brand/wordmark-dark.png">
+    <img src="docs/brand/wordmark-light.png" alt="netwrth" height="56">
+  </picture>
+</p>
 
-Ask your AI assistant about your money. [netwrth](https://netwrth.app) runs a
-remote [Model Context Protocol](https://modelcontextprotocol.io) server, so
-Claude, Cursor, VS Code or any MCP client can read your netwrth dashboard and
-answer questions like:
+<p align="center">
+  Your <a href="https://netwrth.app">netwrth</a> accounts in Claude, Cursor and VS Code —
+  a read-only MCP server, censored by default, that describes your money and never gives advice.
+</p>
+
+<p align="center"><img src="docs/img/settings.png" alt="The AI assistants section in netwrth Settings → Integrations" width="760"></p>
+<p align="center"><sub>Settings → Integrations → AI assistants: create a key and copy the setup for your client, with the key already filled in.</sub></p>
+
+## What you can ask
+
+netwrth runs a remote [Model Context Protocol](https://modelcontextprotocol.io)
+server, so any MCP client can read your netwrth dashboard and answer questions
+like:
 
 - "How did my total move this year?"
 - "How much of what I have is in retirement accounts?"
