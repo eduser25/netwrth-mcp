@@ -10,8 +10,8 @@
   a read-only MCP server, censored by default, that describes your money and never gives advice.
 </p>
 
-<p align="center"><img src="docs/img/settings.png" alt="The AI assistants section in netwrth Settings → Integrations" width="760"></p>
-<p align="center"><sub>Settings → Integrations → AI assistants: create a key and copy the setup for your client, with the key already filled in.</sub></p>
+<p align="center"><img src="docs/img/settings.png" alt="netwrth Settings → Integrations: API keys, Home Assistant and AI assistants" width="640"></p>
+<p align="center"><sub>Settings → Integrations. <b>Create a key for an assistant</b> fills the new key into the setup for your client.</sub></p>
 
 ## What you can ask
 
