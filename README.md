@@ -11,7 +11,7 @@
 </p>
 
 <p align="center"><img src="docs/img/settings.png" alt="netwrth Settings → Integrations: API keys, Home Assistant and AI assistants" width="640"></p>
-<p align="center"><sub>Settings → Integrations. <b>Create a key for an assistant</b> fills the new key into the setup for your client.</sub></p>
+<p align="center"><sub>Settings → Integrations. The MCP server uses your regular netwrth API keys; a key you just created is filled into the setup for your client.</sub></p>
 
 ## What you can ask
 
@@ -43,10 +43,12 @@ You need a netwrth account with at least one connected bank.
 
 ## 1. Create an API key
 
-Go to [Settings → Integrations](https://netwrth.app/settings/integrations) and,
-under **AI assistants**, choose **Create a key for an assistant**. The key is
-shown once; the page shows the setup snippets below with it already filled in.
-(Any key from the **API keys** list works too.)
+The MCP server uses ordinary netwrth API keys, the same ones the Home
+Assistant integration uses. Go to
+[Settings → Integrations](https://netwrth.app/settings/integrations) and
+choose **+ New API key** under **API keys**. The key is shown once; while it's
+on screen, the **AI assistants** section below fills it into the setup
+snippets for you.
 
 The key's scope decides what the model can see. These are the same rules as
 the netwrth Home Assistant cards:
